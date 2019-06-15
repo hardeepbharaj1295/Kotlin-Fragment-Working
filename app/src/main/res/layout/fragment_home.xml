@@ -1,0 +1,23 @@
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/first"/>
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:id="@+id/second"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SUM"
+        android:id="@+id/button"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Result"
+        android:layout_gravity="center"
+    android:textSize="30dp"/>
+</LinearLayout>
